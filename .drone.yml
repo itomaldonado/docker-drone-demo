@@ -1,6 +1,7 @@
 image: phusion/baseimage
 env:
-  - SomePath=/var/cache/drone
+  - GOPATH=/var/cache/drone
+  - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 notify:
   email:
     recipients:
