@@ -1,7 +1,6 @@
-image: phusion/baseimage
+image: bradrydzewski/java:openjdk7
 env:
   - GOPATH=/var/cache/drone
-  - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 notify:
   email:
     recipients:
