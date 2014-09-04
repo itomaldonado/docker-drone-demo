@@ -1,0 +1,8 @@
+image: phusion/baseimage
+env:
+  - SomePath=/var/cache/drone
+notify:
+  email:
+    recipients:
+      - manuel.maldonado@verizon.com
+      - manuel.maldonado@verizon.com
