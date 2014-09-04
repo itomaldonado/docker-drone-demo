@@ -1,6 +1,6 @@
 image: phusion/baseimage
 env:
-  - SomePath=/var/cache/droned
+  - SomePath=/var/cache/drone
 notify:
   email:
     recipients:
