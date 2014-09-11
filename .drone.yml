@@ -1,7 +1,8 @@
 image: bradrydzewski/java:openjdk7
 env:
   - GOPATH=/var/cache/drone
-  - some=thing
+script:
+  - pwd
 notify:
   email:
     recipients:
