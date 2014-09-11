@@ -3,6 +3,7 @@ env:
   - GOPATH=/var/cache/drone
 script:
   - pwd
+  - mvn clean install
 notify:
   email:
     recipients:
