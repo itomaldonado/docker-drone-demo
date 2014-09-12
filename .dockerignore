@@ -1,0 +1,5 @@
+#ignore files for docker.
+.git
+src
+pom.xml
+README.md
