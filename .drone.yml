@@ -1,9 +1,13 @@
 image: bradrydzewski/scala:2.10.3
 env:
   - GOPATH=/var/cache/drone
+  - some=2
 script:
   - pwd
   - mvn clean install
+  - ls
+  - cd target/
+  - ls
 notify:
   email:
     recipients:
