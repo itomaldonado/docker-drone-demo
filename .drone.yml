@@ -5,9 +5,6 @@ env:
 script:
   - pwd
   - mvn clean install
-  - ls
-  - cd target/
-  - ls
 notify:
   email:
     recipients:
