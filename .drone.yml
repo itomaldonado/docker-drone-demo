@@ -1,6 +1,7 @@
 image: bradrydzewski/scala:2.10.3
 env:
   - GOPATH=/var/cache/drone
+  - PATH=2
 script:
   - pwd
   - mvn clean install
