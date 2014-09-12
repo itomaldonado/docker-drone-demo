@@ -1,4 +1,4 @@
-image: bradrydzewski/scala:2.10.3
+image: itomaldonado/scala:2.10.3
 env:
   - GOPATH=/var/cache/drone
 script:
