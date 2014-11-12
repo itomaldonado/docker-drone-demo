@@ -3,7 +3,8 @@ env:
   - GOPATH=/var/cache/drone
   - SOME=PATH
 script:
-  - mvn clean install
+  - pwd
+  - ls -ltrh
 notify:
   email:
     recipients:
