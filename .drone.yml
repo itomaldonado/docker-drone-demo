@@ -10,15 +10,12 @@ notify:
 
 publish:
   docker:
-    dockerfile: Dockerfile
-    docker_host: {{docker_host}}
-    docker_port: {{docker_post}}
-    docker_version: {{docker_version}}
-    registry_login_url: https://docker-registry.example.com/v1/
-    registry_login: true
-    username: {{username}}
-    password: {{password}}
-    email: {{email}}
+    docker_host: $$docker_host
+    docker_version: $$docker_version
+    registry_login: $$registry_login
+    username: $$username
+    password: $$password
+    email: $$email
     image_name: {{username}}/dronetest
     push_latest: true
     keep_builds: false
