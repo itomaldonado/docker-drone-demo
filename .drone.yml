@@ -5,6 +5,9 @@ env:
 script:
   - pwd
   - ls -ltrh
+  - mvn clean install
+  - pwd
+  - ls -ltrh
 notify:
   email:
     recipients:
