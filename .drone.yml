@@ -16,7 +16,7 @@ publish:
     username: $$username
     password: $$password
     email: $$email
-    image_name: {{username}}/dronetest
+    image_name: $$username/dronetest
     push_latest: true
     keep_builds: false
     tag: 0.1
