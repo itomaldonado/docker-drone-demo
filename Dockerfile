@@ -8,7 +8,7 @@ MAINTAINER  Manuel Maldonado <mo.maldonado@gmail.com>
 # Prepare image
 RUN mkdir /home/scala; chmod 777 -R /home/scala;
 WORKDIR /home/scala
-COPY $PWD/target/docker-drone-demo-0.0.1-SNAPSHOT.jar ./
+COPY ./target/docker-drone-demo-0.0.1-SNAPSHOT.jar ./
 RUN sudo chmod 777 docker-drone-demo-0.0.1-SNAPSHOT.jar
 
 # Have it ready to run!
