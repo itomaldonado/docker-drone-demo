@@ -1,6 +1,7 @@
 image: bradrydzewski/scala:2.10.3
 env:
   - GOPATH=/var/cache/drone
+  - SOME=PATH
 script:
   - mvn clean install
 notify:
